@@ -7,8 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    //   features = "src\\test\\java\\features\\TechfiosLogin.feature", // run the this particular url
-	features = "classpath:features", // run all the features in the project
+      features = "src\\test\\java\\features\\Deposit.feature", // run the this particular url
+	//features = "classpath:features", // run all the features in the project
 		
 		glue = "steps",
 		//tags = "@Secenario1", // If you want to run a particular scenario out of many, just past the name here

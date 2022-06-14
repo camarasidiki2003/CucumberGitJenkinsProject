@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/Deposit.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/features/Deposit.feature");
 formatter.feature({
   "comments": [
     {
@@ -200,7 +200,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_on_Techfios_login_page()"
 });
 formatter.result({
-  "duration": 3152509200,
+  "duration": 3891224800,
   "status": "passed"
 });
 formatter.match({
@@ -213,7 +213,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_username_as(String)"
 });
 formatter.result({
-  "duration": 3127547000,
+  "duration": 3215805000,
   "status": "passed"
 });
 formatter.match({
@@ -226,35 +226,35 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 3081913300,
+  "duration": 3104513500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_signin_button()"
 });
 formatter.result({
-  "duration": 4154886200,
+  "duration": 4528129100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_land_on_dashboard_page()"
 });
 formatter.result({
-  "duration": 12829500,
+  "duration": 13503500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_bankCash()"
 });
 formatter.result({
-  "duration": 95862400,
+  "duration": 104159700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_newAccount()"
 });
 formatter.result({
-  "duration": 528361200,
+  "duration": 457547800,
   "status": "passed"
 });
 formatter.match({
@@ -267,7 +267,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_accountTitle_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 84668700,
+  "duration": 114772400,
   "status": "passed"
 });
 formatter.match({
@@ -280,7 +280,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_description_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 106893300,
+  "duration": 218433100,
   "status": "passed"
 });
 formatter.match({
@@ -293,7 +293,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_initialBalance_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 73894700,
+  "duration": 126968400,
   "status": "passed"
 });
 formatter.match({
@@ -306,7 +306,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_accountNumber_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 78805200,
+  "duration": 133243200,
   "status": "passed"
 });
 formatter.match({
@@ -319,7 +319,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_contactPerson_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 82773300,
+  "duration": 111716700,
   "status": "passed"
 });
 formatter.match({
@@ -332,7 +332,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_Phone_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 79625300,
+  "duration": 118489000,
   "status": "passed"
 });
 formatter.match({
@@ -345,21 +345,21 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_internetBankingURL_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 131984000,
+  "duration": 212584700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_submit()"
 });
 formatter.result({
-  "duration": 8068035700,
+  "duration": 7899605300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 3006472500,
+  "duration": 3011274500,
   "status": "passed"
 });
 });

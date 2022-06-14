@@ -4,9 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.junit.Assert;
 
-public class BankAndCashPage extends BasePage{
+public class BankAndCashPage extends BasePage {
 	WebDriver driver;
 
 	public BankAndCashPage(WebDriver driver) {
@@ -88,19 +87,9 @@ public class BankAndCashPage extends BasePage{
 		}
 		SUBMIT_ELEMENT.click();
 	}
-	
-		public String getPageTitle() {
-			  return driver.getTitle();
-			 }
-	
 
-				
-				  
-
-				/*
-				 * public void accountCreatedSuccessfullyMessage() {
-				 * System.out.println("Account Created successfully, Thank Author @Sidiki"); }
-				 */
-
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
 
 }

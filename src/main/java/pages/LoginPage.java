@@ -51,41 +51,4 @@ public class LoginPage extends BasePage{
 			
 		  return driver.getTitle();
 		 }
-		 public void clickOnBankAndCash() {
-			 
-		 }
-		 public void cliskOnNewAccount() {
-			 
-		 }
-		 public void enterAccountTitle() {
-			 
-		 }
-		 public void enterDescription() {
-			 
-		 }
-		 public void enterInitialBalance() {
-			 
-		 }
-		 public void enterAccountNumber() {
-			 
-		 }
-		 public void enterContactPerson() {
-			 
-		 }
-		 public void enterPhone() {
-			 
-		 }
-		 public void enterInternetBankingUrl() {
-			 
-		 }
-		 public void clickOnNewAccount2() {
-			 
-		 }
-		 public void validateAccountCreatedSuccessfully(){
-			 
-		 }
-		 
-		 
-
-
-}
+	}
