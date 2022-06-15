@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-      features = "src\\test\\java\\features\\Deposit.feature", // run the this particular url
+      features = "src\\test\\java\\features\\Deposit3.feature", // run the this particular url
 	//features = "classpath:features", // run all the features in the project
 		
 		glue = "steps",
